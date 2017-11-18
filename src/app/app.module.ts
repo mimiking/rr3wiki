@@ -25,7 +25,6 @@ import { BrandComponent } from './pages/brand/brand.component';
     HttpModule,
     MatCardModule,
     MatSelectModule
-    // MaterialModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
