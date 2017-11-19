@@ -1,6 +1,14 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
+    "baseUrl": "./src",
+    "paths": {
+      "shared/*": [
+         "app/shared/*"
+      ],
+      "env/*": [
+        "environments/*"
+      ]
+    },
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -13,6 +21,12 @@
     "target": "es5",
     "typeRoots": [
       "../node_modules/@types"
-    ]
+    ],
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noEmitOnError": true
   }
 }
